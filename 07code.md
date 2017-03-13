@@ -21,7 +21,7 @@ A better way is to use backticks followed by optional language name
 We can use diff too. Put in the place we usually put the language name. Use - sign before line deleted and + before line added
 
 ```diff
-    var z = 12;
-  - var x = 10;
-  + var x = 13;
+var z = 12;
+- var x = 10;
++ var x = 13;
 ```

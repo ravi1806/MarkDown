@@ -18,7 +18,7 @@ A better way is to use backticks followed by optional language name
     echo $myphpvar;
   ```
 
-We can use diff too. Put in the place we usually put the language name. Use - sign before line deleted and + before line added
+We can use diff too. Put in the place we usually put the language name. Use - sign before line deleted and + before line added. Make sure the code is not indented in this case. Add those - and + right at the start of the line.
 
 ```diff
 var z = 12;
